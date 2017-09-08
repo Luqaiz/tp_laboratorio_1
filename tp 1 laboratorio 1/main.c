@@ -49,6 +49,7 @@ int main()
         switch(opcion)
         {
             case 1:
+
                 num1 = pedirNumero("Ingrese el primer numero: ");
                 system ("cls");
                 flagNum1 = 1;
@@ -65,7 +66,7 @@ int main()
                 }else
                 {
                     operacionSuma = suma(num1,num2);
-                    printf ("El resultado de la suma es: %2.f\n\n", operacionSuma);
+                    printf ("El resultado de la suma es: %.2f\n\n", operacionSuma);
                 }
                 system ("pause");
                 system ("cls");
@@ -78,7 +79,7 @@ int main()
                 }else
                 {
                     operacionResta = resta(num1,num2);
-                    printf ("El resultado de la resta es: %2.f\n\n", operacionResta);
+                    printf ("El resultado de la resta es: %.2f\n\n", operacionResta);
                 }
 
                 system ("pause");
@@ -91,7 +92,7 @@ int main()
                 }else
                 {
                    operacionDivision = division(num1,num2);
-                    printf ("El resultado de la division es: %2.f\n\n", operacionDivision);
+                    printf ("El resultado de la division es: %.2f\n\n", operacionDivision);
                 }
 
                 system ("pause");
@@ -104,7 +105,7 @@ int main()
                 }else
                 {
                     operacionMultiplicacion = multiplicacion(num1,num2);
-                    printf ("El resultado de la multiplicacion es: %2.f\n\n", operacionMultiplicacion);
+                    printf ("El resultado de la multiplicacion es: %.2f\n\n", operacionMultiplicacion);
                 }
 
                 system ("pause");
@@ -133,7 +134,7 @@ int main()
                     div = division(num1,num2);
                     mul = multiplicacion(num1,num2);
                     factorial(num1);
-                    printf(" La suma es: %2.f \n La resta es: %2.f \n La division es: %2.f \n La multiplicacion es: %2.f\n",sum,res,div,mul);
+                    printf(" La suma es: %.2f \n La resta es: %.2f \n La division es: %.2f \n La multiplicacion es: %.2f\n",sum,res,div,mul);
                 }
                 system ("pause");
                 system ("cls");

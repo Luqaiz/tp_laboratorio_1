@@ -56,7 +56,7 @@ long long int factorial (float a)
         }
             else if(a<0)
             {
-                printf("\nNo se puede calcular el factor9ial de un numero negativo.\n");
+                printf("\nNo se puede calcular el factorial de un numero negativo.\n");
                 return 1;
             }
          for (i=a; i>=1; i--)
@@ -64,7 +64,7 @@ long long int factorial (float a)
             resultadoFactorial = resultadoFactorial * i;
         }
 
-        printf (" El resultado del factorial es: %2.d\n", resultadoFactorial);
+        printf (" El resultado del factorial es: %lld\n", resultadoFactorial);
 
     return resultadoFactorial;
 
